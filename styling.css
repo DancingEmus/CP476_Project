@@ -53,13 +53,13 @@ h1 {
   text-align: center;
 }
 .banner {
-
   background-color: #429576;
   height: 40px;
 
 }
 
 .section {
+  text-align: left;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -160,6 +160,10 @@ label {
   float: left;
 }
 
+.textBlob{
+  width: 60%;
+  margin: auto;
+}
 /* Add a background color and some padding around the form */
 .container {
   width: 60%;
@@ -168,4 +172,13 @@ label {
   background-color: #E8F8F5;
   padding: 20px;
   font-size: 16px;
+}
+
+.footerContainer {
+  background-color: #429576;
+  height: 40px;
+}
+.footer {
+  color: white;
+  text-align: center;
 }
