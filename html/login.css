@@ -1,0 +1,118 @@
+.topnav {
+  background-color: #429576;
+  text-align: right;
+  padding: 8px 12px;
+}
+.topnav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+  margin-left: 15px;
+}
+.topnav a:hover {
+  text-decoration: underline;
+  color: white;
+}
+footer p
+{
+  background-color: #429576;
+  text-align: right;
+  padding: 8px 12px;
+  color: white;
+}
+#logintag
+{
+  font-size: 25px;
+  text-align: left;
+  margin-left: 230px;
+  margin-bottom: 10px;
+  color: #1a5336;
+}
+#tableview
+{
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #E8F8F5;
+  width: 70%;
+  margin-bottom: 145px;
+}
+#tableview tr td {
+  padding: 30px 10px 0 10px;
+}
+hr.loginunder
+{
+  border: 1px solid #1a5336;
+  margin-left: 230px;
+  margin-right: 230px;
+}
+
+.title {
+  height: 10px;
+  line-height: 15px;
+  display: block;
+  font-size: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-right: 330px;
+}
+.rememberme {
+  font-size: 15px;
+  margin-left: 320px;
+}
+.logbutton
+{
+  background-color: #429576;
+  border: none;
+  color: white;
+  padding: 5px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin-left: 320px;
+}
+.registbutton
+{
+  background-color: #429576;
+  border: none;
+  color: white;
+  padding: 5px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin-left: 320px;
+  margin-top: 20px;
+}
+.forgotlinks
+{
+  margin-left: 400px;
+}
+.forgotlinks a {
+  color: #1D7F5A;
+  text-decoration: none;
+  font-size: 15px;
+}
+.forgotlinks a:hover {
+  text-decoration: underline;
+  color: #004F31;
+}
+input[name="username"] {
+  margin-left:320px;
+}
+input[name="rememberme"] {
+}
+.regist {
+  height: 10px;
+  line-height: 15px;
+  display: block;
+  font-size: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-right: 80px;
+}
+
+input[name="pass"] {
+  margin-left:320px;
+}
