@@ -1,0 +1,151 @@
+body, html {
+    height: 100%;
+    font-family: "Webly Sleek SemiLight",Helvetica-,droid sans,sans-serif;
+    font-size: 16px;
+    line-height: 1.375;
+    color: #1c1c1c;
+    background-color: #fff;
+}
+
+ul.navTop {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #429576;
+  height: 40px;
+}
+li.navTop {
+  float: right;
+}
+
+li a.navTop {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a.navTop:hover {
+  background-color: #1D7F5A;
+}
+.log {
+  width: 60%;
+  margin: auto;
+  height: 100%;
+}
+
+#logintag
+{
+  font-size: 25px;
+  text-align: left;
+  margin-left: 230px;
+  margin-bottom: 10px;
+  color: #1a5336;
+}
+#tableview
+{
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #E8F8F5;
+  width: 70%;
+  margin-bottom: 145px;
+}
+#tableview tr td {
+  padding: 30px 10px 0 10px;
+}
+hr.loginunder
+{
+  border: 1px solid #1a5336;
+  margin-left: 230px;
+  margin-right: 230px;
+}
+
+.title {
+  height: 10px;
+  line-height: 15px;
+  display: block;
+  font-size: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-right: 330px;
+}
+.rememberme {
+  font-size: 15px;
+  margin-left: 320px;
+}
+.logbutton
+{
+  background-color: #429576;
+  border: none;
+  color: white;
+  padding: 5px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin-left: 320px;
+  width: 30em;
+}
+.registbutton
+{
+  background-color: #429576;
+  border: none;
+  color: white;
+  padding: 5px 60px;
+  width: 30em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin-left: 320px;
+  margin-top: 20px;
+}
+
+.registbutton:hover {
+  background-color: #1D7F5A;
+}
+.logbutton:hover {
+  background-color: #1D7F5A;
+}
+.forgotlinks
+{
+  margin-left: 400px;
+}
+.forgotlinks a {
+  color: #1D7F5A;
+  text-decoration: none;
+  font-size: 15px;
+}
+.forgotlinks a:hover {
+  text-decoration: underline;
+  color: #004F31;
+}
+input[name="username"] {
+  margin-left:320px;
+}
+input[name="rememberme"] {
+}
+.regist {
+  height: 10px;
+  line-height: 15px;
+  display: block;
+  font-size: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-right: 80px;
+}
+
+input[name="pass"] {
+  margin-left:320px;
+}
+
+.footerContainer {
+  background-color: #429576;
+  height: 40px;
+}
+.footer {
+  color: white;
+  text-align: center;
+}

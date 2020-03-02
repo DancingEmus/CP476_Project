@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TutorMe</title>
+  <link href="css/styling1.css" rel="stylesheet">
+</head>
+
+<body>
+<nav>
+    <ul class="navTop">
+      <li class="navTop"><a href="#contact" class="navTop">Contact Us</a></li>
+      <li class="navTop"><a href="#about" class="navTop">About Us</a></li>
+      <li class="navTop"><a href="#services" class="navTop">Services</a></li>
+    </ul>
+</nav>
+<div style="width: 60%; margin: auto;">
+<h1 style="text-align: left;"><strong>TutorMe</strong></h1>
+</div>
+<hr>
+
+<div class="hero-image">
+  <div class="hero-text">
+      <h1 id="banner">Welcome To Tutoring Done Easy</h1>
+      <button id='but2' onclick="location.href='login.html'">Log In</button>
+    </div>
+    </div>
+<div class="section">
+    <h1 id="services"> Services <h1>
+    <hr>
+<div>
+  <div class="row">
+  <div class="column">
+    <img class="icons" src="images\schedule.jpg" alt="Schedule">
+  <p id="info"> Easy Scheduling </p>
+  </div>
+  <div class="column">
+    <img class="icons" src="images\schedule.jpg" alt="Booking" >
+    <p id="info"> Easy Booking and Rebooking </p>
+  </div>
+  <div class="column">
+    <img class="icons" src="images\schedule.jpg" alt="Payroll" >
+    <p id="info"> View Payroll Information  </p>
+  </div>
+</div>
+    <button id='but2'>Register Now!</button>
+    <button id='but2' onclick="location.href='demo.html'">Try the Demo!</button>
+  </div>
+</div>
+
+<div class="section">
+    <h1 id="about"> About Us <h1>
+    <hr>
+      <img class="icons" src="images\books.png" alt="Books" >
+    <div class="textBlob">
+<p id="info">Due to the nature of the tutoring industry, miscommunications between tutors and students happen.  Our goal is to help improve communication between the enrolled students and educational staff thorugh our scheduling application.
+</p>
+</div>
+</div>
+
+<div class="section">
+    <h1 id="contact"> Contact Us <h1>
+    <hr>
+      <img class="icons" src="images\questions.png" alt="Books" >
+    <div class="textBlob">
+<p id="info">If you have any questions or comments about our services feel free to get in touch with us!
+</p>
+</div>
+<div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <label for="lname">Email</label>
+    <input type="text" id="email" name="email" placeholder="youremail@example.com">
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+</div>
+<footer class="footerContainer">
+    <p class="footer"> This is just a Prototype site © 2020 Copyright TutorMe </p>
+</footer>
+
+</body>
+
+</html>
